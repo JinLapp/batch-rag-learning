@@ -1,0 +1,59 @@
+spring:
+  application:
+    name: text-vectorizer
+
+  batch:
+    job:
+      enabled: false
+    jdbc:
+      initialize-schema: always
+
+  datasource:
+    url: jdbc:h2:file:./data/textvectorizer-db;AUTO_SERVER=TRUE
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+  ai:
+    openai-sdk:
+      base-url: ${ionos.open-ai-base-url}
+      api-key: ${ionos.api-key}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,loggers
+  endpoint:
+    health:
+      show-details: always
+
+logging:
+  level:
+    root: INFO
+    com.example.textvectorizer: DEBUG
+    org.springframework.batch: INFO
+    org.springframework.jdbc: INFO
+    org.springframework.web.reactive.function.client: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level [%thread] [%X{jobId:-},%X{stepName:-},%X{fileName:-},%X{chunkIndex:-}] %logger{36} - %msg%n"
+
+app:
+  input-directory: ./input
+  chunk-sentence-window-size: 5
+  chunk-sentence-overlap: 1
+  fallback-chunk-size: 1200
+  fallback-chunk-overlap: 150
+  recursive-scan: false
+
+ionos:
+  api-key: ${IONOS_API_KEY:dummy-key-for-startup}
+  open-ai-base-url: ${IONOS_OPENAI_BASE_URL:https://placeholder.example.com/v1}
+  native-base-url: ${IONOS_NATIVE_BASE_URL:https://placeholder.example.com}
+  embedding-model: ${IONOS_EMBEDDING_MODEL:placeholder-embedding-model}
+  document-collection-id: ${IONOS_DOCUMENT_COLLECTION_ID:placeholder-collection-id}
