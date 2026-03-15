@@ -22,7 +22,7 @@ public class ImportHistoryService {
         return exists;
     }
 
-    public void markAsDiscovered(String fileName, String sourcePath, String checksum) {
+    public void markAsImported(String fileName, String sourcePath, String checksum) {
         repository.save(fileName, sourcePath, checksum);
         log.info("Recorded file in import history: fileName={}, sourcePath={}, checksum={}",
                 fileName, sourcePath, checksum);

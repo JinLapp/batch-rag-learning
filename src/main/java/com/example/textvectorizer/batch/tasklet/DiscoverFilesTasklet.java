@@ -1,6 +1,7 @@
 package com.example.textvectorizer.batch.tasklet;
 
 import com.example.textvectorizer.config.AppProperties;
+import com.example.textvectorizer.domain.SourceFileDescriptor;
 import com.example.textvectorizer.metadata.service.ImportHistoryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +18,7 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HexFormat;
 import java.util.List;
@@ -27,7 +29,7 @@ import java.util.stream.Stream;
 public class DiscoverFilesTasklet implements Tasklet {
 
     private static final Logger log = LoggerFactory.getLogger(DiscoverFilesTasklet.class);
-    private static final String EXECUTION_CONTEXT_KEY = "discoveredFiles";
+    public static final String EXECUTION_CONTEXT_KEY = "discoveredFileDescriptors";
 
     private final AppProperties appProperties;
     private final ImportHistoryService importHistoryService;
@@ -53,28 +55,25 @@ public class DiscoverFilesTasklet implements Tasklet {
             throw new IllegalStateException("Configured input path is not a directory: " + inputDir.toAbsolutePath());
         }
 
-        List<String> discoveredFiles = discoverEligibleFiles(inputDir);
+        List<SourceFileDescriptor> descriptors = discoverEligibleFiles(inputDir);
 
-        ExecutionContext jobExecutionContext =
-                chunkContext.getStepContext()
-                        .getStepExecution()
-                        .getJobExecution()
-                        .getExecutionContext();
+        ExecutionContext jobExecutionContext = chunkContext.getStepContext()
+                .getStepExecution()
+                .getJobExecution()
+                .getExecutionContext();
 
-        jobExecutionContext.put(EXECUTION_CONTEXT_KEY, discoveredFiles);
+        jobExecutionContext.put(EXECUTION_CONTEXT_KEY, new ArrayList<>(descriptors));
 
-        //jli260314 changed because error contribution.incrementReadCount(discoveredFiles.size());
-        // todo ask wether this is correct or not , why the number of discovered files should be added to read count, 
-        // because it is not read yet, it is just discovered and prepared for downstream processing
         contribution.incrementReadCount();
+
         log.info("File discovery completed. {} new file(s) prepared for downstream processing.",
-                discoveredFiles.size());
+                descriptors.size());
 
         return RepeatStatus.FINISHED;
     }
 
-    private List<String> discoverEligibleFiles(Path inputDir) throws IOException, NoSuchAlgorithmException {
-        List<String> discoveredFiles = new ArrayList<>();
+    private List<SourceFileDescriptor> discoverEligibleFiles(Path inputDir) throws IOException, NoSuchAlgorithmException {
+        List<SourceFileDescriptor> descriptors = new ArrayList<>();
 
         try (Stream<Path> pathStream = appProperties.isRecursiveScan()
                 ? Files.walk(inputDir)
@@ -95,17 +94,24 @@ public class DiscoverFilesTasklet implements Tasklet {
                                 return;
                             }
 
-                            discoveredFiles.add(absolutePath);
-                            importHistoryService.markAsDiscovered(fileName, absolutePath, checksum);
+                            SourceFileDescriptor descriptor = new SourceFileDescriptor(
+                                    fileName,
+                                    absolutePath,
+                                    checksum,
+                                    Instant.now()
+                            );
 
-                            log.info("Discovered new file: {}", absolutePath);
+                            descriptors.add(descriptor);
+
+                            log.info("Discovered new file: fileName={}, sourcePath={}, checksum={}",
+                                    fileName, absolutePath, checksum);
                         } catch (Exception ex) {
                             throw new RuntimeException("Failed while discovering file: " + path, ex);
                         }
                     });
         }
 
-        return discoveredFiles;
+        return descriptors;
     }
 
     private boolean isTextFile(Path path) {
