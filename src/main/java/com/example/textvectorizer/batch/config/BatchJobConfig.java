@@ -4,11 +4,15 @@ import com.example.textvectorizer.batch.listener.BatchJobExecutionListener;
 import com.example.textvectorizer.batch.listener.BatchStepExecutionListener;
 import com.example.textvectorizer.batch.listener.ChunkPreparationStepListener;
 import com.example.textvectorizer.batch.processor.FileToChunkedDocumentProcessor;
+import com.example.textvectorizer.batch.processor.FileToEmbeddedDocumentProcessor;
 import com.example.textvectorizer.batch.reader.DiscoveredFileDescriptorReader;
 import com.example.textvectorizer.batch.tasklet.DiscoverFilesTasklet;
 import com.example.textvectorizer.batch.tasklet.InspectDiscoveredFilesTasklet;
+import com.example.textvectorizer.batch.writer.IonosDocumentCollectionWriter;
 import com.example.textvectorizer.batch.writer.LoggingChunkedDocumentWriter;
+import com.example.textvectorizer.batch.writer.PgVectorWriter;
 import com.example.textvectorizer.domain.ChunkedDocument;
+import com.example.textvectorizer.domain.EmbeddedDocument;
 import com.example.textvectorizer.domain.SourceFileDescriptor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -70,23 +74,24 @@ public class BatchJobConfig {
                 .build();
     }
 
-    @Bean
-    public Step chunkDocumentsStep(JobRepository jobRepository,
-                                   PlatformTransactionManager transactionManager,
-                                   DiscoveredFileDescriptorReader reader,
-                                   FileToChunkedDocumentProcessor processor,
-                                   LoggingChunkedDocumentWriter writer,
-                                   BatchStepExecutionListener stepExecutionListener,
-                                   ChunkPreparationStepListener chunkPreparationStepListener) {
+        @Bean
+        public Step chunkDocumentsStep(JobRepository jobRepository,
+                                PlatformTransactionManager transactionManager,
+                                DiscoveredFileDescriptorReader reader,
+                                FileToEmbeddedDocumentProcessor processor,
+                                PgVectorWriter writer,
+                                BatchStepExecutionListener stepExecutionListener,
+                                ChunkPreparationStepListener chunkPreparationStepListener) {
         log.info("Creating step bean: chunkDocumentsStep");
+        
 
         return new StepBuilder("chunkDocumentsStep", jobRepository)
-                .<SourceFileDescriptor, ChunkedDocument>chunk(2, transactionManager)
+                .<SourceFileDescriptor, EmbeddedDocument>chunk(2, transactionManager)
                 .reader(reader)
                 .processor(processor)
                 .writer(writer)
                 .listener(stepExecutionListener)
                 .listener(chunkPreparationStepListener)
                 .build();
-    }
+        }
 }
