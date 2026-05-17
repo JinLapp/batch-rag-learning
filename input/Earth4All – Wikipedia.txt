@@ -1,0 +1,270 @@
+---
+title: "Earth for all – Wikipedia"
+source: "https://de.wikipedia.org/wiki/Earth_for_all"
+author:
+  - "[[Autoren der Wikimedia-Projekte]]"
+published: 2023-06-24
+created: 2025-08-23
+description:
+tags:
+  - "clippings"
+---
+
+#Einleitung
+**Earth for all** (auch **earth4all**) ist eine internationale Initiative, die untersucht, wie die Grundbedürfnisse für alle Menschen innerhalb der [planetaren Grenzen](https://de.wikipedia.org/wiki/Planetare_Grenzen "Planetare Grenzen") der Erde noch in diesem Jahrhundert gedeckt werden können.[^1]
+
+Der Auftrag kam vom [Club of Rome](https://de.wikipedia.org/wiki/Club_of_Rome "Club of Rome"). Die Ergebnisse sind 2022 in Buchform erschienen, Herausgeber ist ebenfalls der Club of Rome, eine der Präsidentinnen des Club of Rome ist die Projektleiterin und Hauptautorin ([Sandrine Dixson-Decleve](https://de.wikipedia.org/wiki/Sandrine_Dixson-Decl%C3%A8ve "Sandrine Dixson-Declève")).[^2] Der ==Originaltitel ist „Earth for All – A Survival Guide for Humanity“. ==  Es ist ein weiterer Bericht an den Club of Rome. Zusätzlich wurden begleitende tiefergehende Beiträge (earth4all deep dive) erstellt. Diese sind auf der Homepage des Club of Rome abrufbar.[^3]  Insgesamt dauerte das Projekt (die Studie) zwei Jahre, mit den vorbereitenden Arbeiten über 10 Jahre.
+
+Am 14. Oktober 2024 wurde eine länderspezifische Ausgliederung der Studie für Deutschland vorgestellt.[^4] [^5]
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Club_of_Rome_Logo.svg/375px-Club_of_Rome_Logo.svg.png)
+
+Club of Rome
+#Thematik
+Thematisch geht es um globale Probleme und um globale Lösungen: [Hunger](https://de.wikipedia.org/wiki/Hungersnot "Hungersnot") und [Armut](https://de.wikipedia.org/wiki/Armut "Armut") abschaffen, Ungerechtigkeit zwischen den Staaten verringern, Ungleichheit innerhalb der Staaten reduzieren, [Geschlechtergerechtigkeit](https://de.wikipedia.org/wiki/Gleichstellung_der_Geschlechter "Gleichstellung der Geschlechter") weltweit herstellen und gleichzeitig [Klimaschutz](https://de.wikipedia.org/wiki/Klimaschutz "Klimaschutz"), [nachhaltige Landwirtschaft](https://de.wikipedia.org/wiki/Nachhaltige_Landwirtschaft "Nachhaltige Landwirtschaft"), Schutz der [Umwelt](https://de.wikipedia.org/wiki/Umweltschutz "Umweltschutz"), langfristige [Nachhaltigkeit](https://de.wikipedia.org/wiki/Nachhaltigkeit "Nachhaltigkeit") in allen Sektoren umsetzen. Alle diese Themen werden [systemdynamisch](https://de.wikipedia.org/wiki/System_Dynamics "System Dynamics") betrachtet, da sie sich gegenseitig dynamisch beeinflussen.
+
+Experten aus verschiedenen Wissenschaften haben Konzepte entwickelt und testeten sie mit [Computersimulationsmodellen](https://de.wikipedia.org/wiki/Computersimulation "Computersimulation").
+
+#Ziel
+Ziel ist es, ein menschenwürdiges Leben für alle zu ermöglichen und trotzdem nachhaltig die planetaren Grenzen zu beachten.
+
+#Methodik
+
+Earth for all konzentriert sich auf die Wirtschaft, die Gesellschaft und die Umwelt. Die Analyse besteht aus zwei sich ergänzenden Methoden: Die Transformational Economics Commission (TEC) hat wirtschaftliche Konzepte entwickelt und die systemdynamischen Computersimulationsmodelle Earth4All haben diese Konzepte in ihren Auswirkungen langfristig getestet. Die Modelle ermöglichten dem Team, die verschiedenen wirtschaftlichen Konzepte und alle Maßnahmen zu überprüfen. Es gibt ein globales Modell und ein komplexeres Modell, das die Entwicklungen in 10 unterschiedlichen Weltregionen und deren Wechselwirkungen erfasst.
+
+Diese Modelle wurden zuerst erprobt mit Daten und Berechnungen für vergangene Jahrzehnte und ergaben ausreichend genaue Übereinstimmungen mit den realen Daten. Die Modelle berechnen nicht die Zukunft, sondern Wahrscheinlichkeiten von Entwicklungen, die eintreten, wenn wir als Menschheit heute dies oder jenes tun.
+
+#Zukunftsszenarien
+Mit den earth for all Modellen sind verschiedene Szenarien modellierbar, zwei davon werden genauer analysiert: Szenario 1 ist quasi weiter wie bisher, genannt „too little too late“. Szenario 2 ist der Vorschlag der Expertenkommission, genannt „giant leap“ oder deutsch „der große Sprung“.
+
+In Szenario 1 wird die absolute Armut länger anhalten, die Ungleichheit wird sich sogar noch vertiefen, es wird zu mehr sozialen Spannungen und [Klimaproblemen](https://de.wikipedia.org/wiki/Globale_Erw%C3%A4rmung "Globale Erwärmung") kommen. Kriege und „failed states“ werden wahrscheinlicher. Staaten werden in den [Autoritarismus](https://de.wikipedia.org/wiki/Autoritarismus "Autoritarismus") abgleiten. Weil nationale und regionale Spannungen zunehmen, wird es immer schwieriger, die Klima- und [Wirtschaftskrisen](https://de.wikipedia.org/wiki/Wirtschaftskrise "Wirtschaftskrise") zu lösen. Die Menschheit wird nicht untergehen, die Lebensbedingungen werden aber gravierend schlechter werden.
+
+Szenario 2 analysiert die Auswirkungen, wenn fünf „Kehrtwendungen“ gemacht werden, um eine humane Zukunft für alle zu ermöglichen. Für jede Kehrtwende werden drei Empfehlungen genannt, die erste ist jeweils im bestehenden System möglich, die zweite ist bereits weitreichender, die dritte ist erst durch einen grundlegenden [Paradigmenwechsel](https://de.wikipedia.org/wiki/Paradigmenwechsel "Paradigmenwechsel") realisierbar.
+
+#5 Kehrtwenden
+
+##Armut
+Hierbei geht es um die extreme Armut in einkommensschwachen Ländern, um Ungerechtigkeiten zwischen den Staaten. Ziel ist ein BIP pro Person von mindestens 15000 US-Dollar. Die drei Empfehlungen sind:
+
+1. Der [Internationale Währungsfonds](https://de.wikipedia.org/wiki/Internationaler_W%C3%A4hrungsfonds "Internationaler Währungsfonds") sollte jährlich neue „ [Sonderziehungsrechte](https://de.wikipedia.org/wiki/Sonderziehungsrecht "Sonderziehungsrecht") “ in Höhe von einer Billion USD schaffen und einkommensschwachen Ländern (mit Einkommen <10000 USD pro Person) für die Schaffung grüner Arbeitsplätze zusätzliche Mittel aus nicht genutzten Sonderziehungsrechten zuweisen.
+2. Einkommensstarke Länder und die [Welthandelsorganisation](https://de.wikipedia.org/wiki/Welthandelsorganisation "Welthandelsorganisation") (WTO) sollten den lokalen Schutz junger Industrien ermöglichen und eine nachhaltige Expansion der Exporte in einkommensschwachen Ländern fördern. Die WTO sollte den Verzicht auf Rechte des geistigen Eigentums für [patent](https://de.wikipedia.org/wiki/Patent "Patent") ierte Technologien, die für die öffentliche Gesundheit und die [Energiewende](https://de.wikipedia.org/wiki/Energiewende "Energiewende") notwendig sind, ermöglichen.
+3. Einkommensstarke Länder sollten die Schulden einkommensschwacher Länder erlassen und ein tragfähiges System zum [Schuldenerlass](https://de.wikipedia.org/wiki/Schuldenerlass "Schuldenerlass") für alle schuldengeplagten Länder mit mittlerem und niedrigem Einkommen schaffen.
+
+Insbesondere der dritte Punkt stößt auf heftigen Widerstand bei den Gläubigern.
+
+##Ungleichheit
+Hier geht es um Ungerechtigkeiten innerhalb der Staaten. In den meisten Regionen der Welt ist die Ungleichheit von Jahrzehnt zu Jahrzehnt größer geworden. Vielerorts verfügen die 10 % der Reichsten über 50 % des nationalen Einkommens. Dies ist ein Rezept für zutiefst dysfunktionale, [polarisierte](https://de.wikipedia.org/wiki/Polarisierung_\(Politik\) "Polarisierung (Politik)") Gesellschaften.[^6]
+
+Ziel ist eine Verringerung der Ungleichheit, die reichsten 10 % erhalten weniger als 40 % des nationalen Einkommens.
+
+Hier sind die drei Empfehlungen zum Thema innerstaatliche Ungleichheit:
+
+1. Eine stärkere progressive Besteuerung für Einzelpersonen und große Unternehmen sowie die Schließung internationaler Schlupflöcher sind für die Bekämpfung der destabilisierenden Ungleichheit und des überbordenden Kohlenstoff- und [Biosphärenverbrauchs](https://de.wikipedia.org/wiki/Biosph%C3%A4re "Biosphäre") absolut notwendig.
+2. Die Arbeitnehmer müssen gestärkt werden. Regierungen sollten Gesetze erlassen, um die Rechte von Arbeitnehmern und [Gewerkschaften](https://de.wikipedia.org/wiki/Gewerkschaft "Gewerkschaft") zu stärken. In einer Zeit großen Wandels benötigen Arbeitnehmer sowohl Schutz als auch die Möglichkeit, neue Fähigkeiten zu entwickeln.
+3. Regierungen sollten Bürgerfonds einführen, um allen Bürgern in der Form einer universellen Grunddividende ihren fairen Anteil am nationalen Reichtum und den globalen Gemeingütern zukommen zu lassen.
+
+Mit Bürgerfonds ist gemeint, dass jeder Mensch eine Grunddividende erhält für die globalen Gemeingüter. Unternehmen beispielsweise bezahlen für Treibhausgasemissionen, für Waldrodungen oder Ressourcenverbrauch. Das Geld wird dann an alle gleichmäßig verteilt. Dieses Prinzip würde zusätzlich alle Arten von Umweltverschmutzung verringern und den Raubbau an der Natur verhindern, beispielsweise die Überfischung der Meere.
+
+##Empowerment
+Hier geht es um Ungerechtigkeiten gegenüber Frauen und Mädchen. Ziel ist die vollständige Gleichstellung der Geschlechter in Bezug auf Handlungsfähigkeit, Rechte, Ressourcen und Macht in Recht und Beruf.
+
+Ziel ist volle [Gleichstellung der Geschlechter](https://de.wikipedia.org/wiki/Gleichstellung_der_Geschlechter "Gleichstellung der Geschlechter") auf der ganzen Erde in Bezug auf Vertretung, Rechte, Ressourcen und Macht in Recht und Beschäftigung.
+
+Diesbezüglich sind die drei Empfehlungen:
+
+1. Alle Regierungen gewährleisten die Rechte von Frauen und Mädchen auf Bildung.
+2. Alle Unternehmen und öffentliche Gremien erreichen Geschlechterparität in Führungspositionen.
+3. Alle Regierungen garantieren einen universellen sozialen Schutz und führen angemessene universelle Rentensysteme ein.
+
+Bei der Gleichstellung der Geschlechter sind die Männer und die Religionen relevante Hindernisse.
+
+##Nahrungsmittel
+Ziel ist ein nachhaltiges Nahrungsmittelsystem für alle und innerhalb der Grenzen des Planeten. Alle Menschen müssen gesund ernährt werden und gleichzeitig muss die [Biodiversität](https://de.wikipedia.org/wiki/Biodiversit%C3%A4t "Biodiversität") erhalten und die Natur geschützt werden.
+
+Earth for all empfiehlt:
+
+1. Mindestens die Hälfte des Ackerlandes soll bis zum Jahr 2030 in eine regenerative und [nachhaltige Landwirtschaft](https://de.wikipedia.org/wiki/Nachhaltige_Landwirtschaft "Nachhaltige Landwirtschaft") umgewandelt werden. Widersinnige Subventionen, Handels- und Beschaffungspraktiken sollen abgeschafft werden.
+2. Techniken für gesündere Böden und nachhaltigere und [regenerative](https://de.wikipedia.org/wiki/Regenerative_Landwirtschaft "Regenerative Landwirtschaft") Formen der Landwirtschaft sollen gefördert werden.
+3. Der Wechsel zu gesunder Ernährung, die die [Grenzen des Planeten](https://de.wikipedia.org/wiki/Planetare_Grenzen "Planetare Grenzen") respektiert, soll für alle ermöglicht werden.
+
+Hindernisse sind hier [Partikularinteressen](https://de.wikipedia.org/wiki/Partikularismus "Partikularismus") von Leuten, die vom Status quo profitieren.
+
+##Klimawandel
+Ziel ist netto null [Treibhausgas-Emissionen](https://de.wikipedia.org/wiki/Treibhausgas "Treibhausgas") bis 2050. Diesbezügliche Empfehlungen sind:
+
+1. Die auf fossilen Brennstoffen beruhenden Energiesysteme und deren Subventionen sofort abschaffen und in saubere und effiziente Energielösungen umwandeln.
+2. [Elektrifizierung](https://de.wikipedia.org/wiki/Elektrifizierung "Elektrifizierung") bei gleichzeitig größerer Effizienz soll Energie sparen, den Verbrauch von Ressourcen senken und die [Luftverschmutzung](https://de.wikipedia.org/wiki/Luftverschmutzung "Luftverschmutzung") reduzieren.
+3. Die Investitionen in erneuerbare Energien mit Speicherkapazität und damit verbundener Infrastruktur soll auf über eine Billion USD pro Jahr verdreifacht werden. Alle Regierungen sollen den Zugang zu sauberen Energien sichern und die Schwächsten vor Energiearmut schützen.[^7]
+
+Die sogenannte Öl-Lobby ist hier ein wesentliches Hindernis.
+
+
+Es wird dargestellt, wie sich das Wirtschaftssystem verändert hat, im Lauf der Jahrhunderte und ganz besonders im Lauf der letzten Jahrzehnte. Die Finanzflüsse im jetzigen System werden analysiert und aufgezeigt, dass sie soziale und ökologische Krisen erzeugen und immer weiter verstärken. Daher muss die Zielsetzung des Wirtschaftssystems weg vom BIP wieder zu mehr Gemeinwohl, zu [qualitativem Wachstum](https://de.wikipedia.org/wiki/Qualitatives_Wachstum "Qualitatives Wachstum"). Es kommt drauf an WAS wächst. Es gibt bereits mehrere Konzepte für eine [Gemeinwohl-Ökonomie](https://de.wikipedia.org/wiki/Gemeinwohl-%C3%96konomie "Gemeinwohl-Ökonomie"). Ganz besonders muss das globale Finanzsystem umgestaltet werden.
+
+Die Initiative *Earth for all* versteht sich in erster Linie als Empfehlung an die Regierungen der Welt. Zusätzlich will die Initiative eine möglichst große Kooperation von Regierungen, Parteien, internationalen Organisationen, Konzernen, Betrieben, NGOs und Bürgern für die Transformation in die empfohlene Richtung erzeugen. Die gute Nachricht steht bereits in der Einleitung, ein menschenwürdiges und nachhaltiges Leben ist für alle Menschen möglich und machbar.[^8]
+
+- [Sandrine Dixson-Declève](https://de.wikipedia.org/wiki/Sandrine_Dixson-Decl%C3%A8ve "Sandrine Dixson-Declève") (Expertin für Energiepolitik, Co-Präsidentin des Club of Rome, Projektleitung earth4all)
+- Owen Gaffney [^9] (Nachhaltigkeitsforschung, Transformationsprozesse, Mitbegründer des Future Earth Media Lab)
+- [Jayati Ghosh](https://de.wikipedia.org/wiki/Jayati_Ghosh "Jayati Ghosh") (indische Ökonomin, Spezialgebiete: Weltwirtschaft, Arbeitsmuster in einkommensschwachen Ländern, Makroökonomie und Gender)
+- [Jorgen Randers](https://de.wikipedia.org/wiki/J%C3%B8rgen_Randers "Jørgen Randers") (Hochschullehrer, Zukunftsforscher, Klimaforscher, Szenariotechnik und Systemdynamik)
+- [Johan Rockström](https://de.wikipedia.org/wiki/Johan_Rockstr%C3%B6m "Johan Rockström") (sozio-ökologischer Resilienzforscher, Spezialgebiete: Agrarwissenschaft, Bodenkunde, Hydrologie, globale Stoffkreisläufe, planetare Grenzen, Klimafolgenforschung)
+- [Per Espen Stoknes](https://de.wikipedia.org/wiki/Per_Espen_Stoknes "Per Espen Stoknes") (Umweltpsychologie, Wirtschaftspsychologie, Klima- und Umweltstrategien, Energiesysteme)
+
+#Teilnehmer
+Hochrangige Wissenschaftler aus vielen verschiedenen Disziplinen haben Konzepte erarbeitet, weiterentwickelt und diese zu einem funktionierenden Gesamtsystem zusammengefügt:
+
+- [Anders Wijkman](https://de.wikipedia.org/w/index.php?title=Anders_Wijkman&action=edit&redlink=1 "Anders Wijkman (Seite nicht vorhanden)") (TEC, war Co-Präsident des Club of Rome, Mitglied der Schwedischen Königlichen Akademie der Wissenschaften, Abgeordneter des Europäischen Parlaments, beigeordneter Generalsekretär der Vereinten Nationen) [^10]
+- [Hunter Lovins](https://de.wikipedia.org/wiki/Hunter_Lovins "Hunter Lovins") (TEC, Professorin für Wirtschaftswissenschaften, Juristin, Soziologin und Politikwissenschaftlerin, Gründerin der Organisation *Natural Capitalism Solutions*)
+- [Mamphela Ramphele](https://de.wikipedia.org/wiki/Mamphela_Ramphele "Mamphela Ramphele") (Co-Präsidentin des Club of Rome, TEC, südafrikanische Ärztin, ehemalige Politikerin und Geschäftsfrau)
+- Ken Webster (TEC, führender Experte für Kreislaufwirtschaft) [^11]
+- [Nafeez Ahmed](https://de.wikipedia.org/wiki/Nafeez_Mosaddeq_Ahmed "Nafeez Mosaddeq Ahmed") (TEC, Forschung zu systematischen Bedingungen von Gewalt im großen Stil, genocide studies*)*
+- Lewis Akenji (TEC, Arbeitsschwerpunkt nachhaltige Produktion und nachhaltiger Konsum) [^12]
+- Sharan Burrow (TEC, Arbeitsschwerpunkt Partizipation von Frauen und Arbeitnehmerrechte)
+- [Robert Costanza](https://de.wikipedia.org/wiki/Robert_Costanza "Robert Costanza") (TEC, Professor für ökologische Ökonomie)
+- David Collste (Wirtschaftswissenschaftler, Nachhaltigkeitswissenschaftler) [^13]
+- [Emmanuel Faber](https://de.wikipedia.org/wiki/Emmanuel_Faber "Emmanuel Faber") (TEC, Manager, Vorsitzender des [International Sustainability Standards Board](https://de.wikipedia.org/wiki/International_Sustainability_Standards_Board "International Sustainability Standards Board"))
+- [Lorenzo Fioramonti](https://de.wikipedia.org/wiki/Lorenzo_Fioramonti "Lorenzo Fioramonti") (TEC, Hochschullehrer, ehemaliger Bildungsminister in Italien, wissenschaftlicher Arbeitsschwerpunkt soziale Ungleichheit)
+- Eduardo Gudynas (TEC, Biologe, Forschung zu Umweltgerechtigkeit)
+- [Andrew Haines](https://www.interacademies.org/person/andrew-haines) (TEC, Prof. für public health)
+- Gaya Herrington (TEC, Wirtschaftswissenschaftlerin, Umweltforschung)
+- Garry Jacobs (TEC, CEO der *World Academy of Art & Science,* CEO der *World University Consortium*)
+- Till Kellerhoff (Programmdirektor des Club of Rome)
+- Karthik Manickam
+- Anwesh Mukhopadhyay
+- [Jane Kabubo-Mariara](https://www.efdinitiative.org/about-efd/people/kabubo-mariara-jane) (TEC, Wirtschaftswissenschaftlerin aus Kenia, Schwerpunkt Nachhaltigkeit, Bildung, Frauenförderung und Wirtschaftsentwicklung in Afrika) [^14]
+- [David Korten](https://de.wikipedia.org/wiki/David_Korten "David Korten") (TEC, Wirtschaftswissenschaftler, gründete das People-Centered Development Forum)
+- Nigel Lake (Unternehmens- und Politikberatung, Mitbegründer von ESGX) [^15]
+- Masse Lo (CEO vom *Institute of Leadership for Development,* Experte für Umwelt und Nachhaltigkeitsentwicklung im Senegal*)* [^16]
+- Chandran Nair (TEC, CEO von *Global Institute For Tomorrow*)
+- [Carlota Perez](https://de.wikipedia.org/wiki/Carlota_P%C3%A9rez "Carlota Pérez") (TEC, entwickelte das Konzept der techno-ökonomischen [Paradigmenwechsel](https://de.wikipedia.org/wiki/Paradigmenwechsel "Paradigmenwechsel") und ihre Theorie der *great surges*, einer Weiterentwicklung der [Kondratjew-Zyklen](https://de.wikipedia.org/wiki/Kondratjew-Zyklus "Kondratjew-Zyklus"))
+- [Kate Pickett](https://de.wikipedia.org/wiki/Kate_Pickett "Kate Pickett") (TEC, Gesundheitswissenschaftlerin)
+- [Janez Potočnik](https://de.wikipedia.org/wiki/Janez_Poto%C4%8Dnik "Janez Potočnik") (TEC, Co-Vorsitzender des [International Resource Panel](https://de.wikipedia.org/wiki/International_Resource_Panel "International Resource Panel") des [Umweltprogramm der Vereinten Nationen](https://de.wikipedia.org/wiki/Umweltprogramm_der_Vereinten_Nationen "Umweltprogramm der Vereinten Nationen"))
+- [Otto Scharmer](https://de.wikipedia.org/wiki/Otto_Scharmer "Otto Scharmer") (TEC, Vorsitzender des MIT IDEAS-Programms für branchenübergreifende Innovation)
+- Stewart Wallis (TEC, Direktor der *New Economics Foundation*)
+- [Ernst Ulrich von Weizsäcker](https://de.wikipedia.org/wiki/Ernst_Ulrich_von_Weizs%C3%A4cker "Ernst Ulrich von Weizsäcker") (TEC, Umweltwissenschaftler und Politiker, ehemaliger Co-Präsident des Club of Rome)
+- [Richard Wilkinson](https://de.wikipedia.org/wiki/Richard_G._Wilkinson "Richard G. Wilkinson") (TEC, Wirtschafts- und Gesundheitswissenschaftler)
+
+Für die systemdynamischen Modelle, die Datensynthese und die Analysen waren folgende Personen verantwortlich:
+
+[Jorgen Randers](https://de.wikipedia.org/wiki/J%C3%B8rgen_Randers "Jørgen Randers"), Ulrich Golüke, David Collste, Sarah Mashhadi, Sarah Cornell, [Per Espen Stoknes](https://de.wikipedia.org/wiki/Per_Espen_Stoknes "Per Espen Stoknes"), Jonathan Donges, [Dieter Gerten](https://de.wikipedia.org/wiki/Dieter_Gerten "Dieter Gerten"), Jannes Breier, Luana Schwarz, Ben Callegari und [Johan Rockström](https://de.wikipedia.org/wiki/Johan_Rockstr%C3%B6m "Johan Rockström")
+
+Die tiefergehenden Beiträge stammen von Nafeez Ahmed, Shouvik Chakraborty, Anuar Sucar Diaz Ceballos, Debamanyu Das, Jayati Ghosh, Gaya Herrington, Adrina Ibnat Jamilee Adiba, Nigel Lake, Masse Lô, Chandran Nair, Rebecca Nohl, Sanna O’Connor, Julia Okatz, [Kate Pickett](https://de.wikipedia.org/wiki/Kate_Pickett "Kate Pickett"), [Janez Potočnik](https://de.wikipedia.org/wiki/Janez_Poto%C4%8Dnik "Janez Potočnik"), [Mamphela Ramphele](https://de.wikipedia.org/wiki/Mamphela_Ramphele "Mamphela Ramphele"), [Otto Scharmer](https://de.wikipedia.org/wiki/Otto_Scharmer "Otto Scharmer"), Anders Wijkman, [Richard Wilkinson](https://de.wikipedia.org/wiki/Richard_G._Wilkinson "Richard G. Wilkinson"), [Jorgen Randers](https://de.wikipedia.org/wiki/J%C3%B8rgen_Randers "Jørgen Randers") und Ken Webster.
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Doughnut_economy_DE_normal.svg/500px-Doughnut_economy_DE_normal.svg.png)
+
+#Donut Ökonomie
+
+Die Zielsetzung der Initiative ist eine humane und nachhaltige Welt. Die Studie belegt, dass dies möglich ist und zeigt konkrete politische Maßnahmen auf. Es geht nur mit einer Transformation der Wirtschaft hin zu einer [Gemeinwohl-Ökonomie](https://de.wikipedia.org/wiki/Gemeinwohl-%C3%96konomie "Gemeinwohl-Ökonomie") (wellbeing economy). Die Ziele decken sich weitgehend mit den [Nachhaltigkeitszielen der UN](https://de.wikipedia.org/wiki/Ziele_f%C3%BCr_nachhaltige_Entwicklung "Ziele für nachhaltige Entwicklung").[^17] Ebenso decken sich die Ziele mit verschiedenen Konzepten, beispielsweise mit der [Donut-Ökonomie](https://de.wikipedia.org/wiki/Donut-%C3%96konomie "Donut-Ökonomie") von [Kate Raworth](https://de.wikipedia.org/wiki/Kate_Raworth "Kate Raworth") [^18]. Ähnliche Ansätze sind die [wachstumskritische Bewegung](https://de.wikipedia.org/wiki/Wachstumskritische_Bewegung "Wachstumskritische Bewegung") (auch Postwachstumsbewegung, engl. degrowth movement), das [grüne Wachstum](https://de.wikipedia.org/wiki/Gr%C3%BCnes_Wachstum "Grünes Wachstum"), die [ökologische Ökonomie](https://de.wikipedia.org/wiki/%C3%96kologische_%C3%96konomie "Ökologische Ökonomie") und andere kritischen Bewegungen.[^19] Auch die wellbeing economy alliance arbeitet in diese Richtung.[^20] Das Besondere an der Studie von earth4all ist die Ausarbeitung der Konzepte von hochrangigen Wissenschaftlern und die Testung mit systemdynamischen Simulationsmodellen.
+
+Die politischen Systeme und deren Probleme sind nicht berücksichtigt, beispielsweise Diktaturen, Kriege und andere destruktiven Kräfte. Sehr wohl aber werden systemische Faktoren berücksichtigt, die Gewalt und soziale Spannungen fördern.
+
+Die vorgeschlagenen Maßnahmen in der Landwirtschaft und im Energiesektor werden nicht ausreichen, um auf netto null Treibhausgas-Emissionen zu kommen. Es bleibt auch die Frage offen, wie die Reichen und Mächtigen dazu bewogen werden können, auf ihre Privilegien zu verzichten.
+
+- [System Dynamics](https://de.wikipedia.org/wiki/System_Dynamics "System Dynamics")
+- [Green New Deal](https://de.wikipedia.org/wiki/Green_New_Deal "Green New Deal")
+- [Ökosoziale Marktwirtschaft](https://de.wikipedia.org/wiki/%C3%96kosoziale_Marktwirtschaft "Ökosoziale Marktwirtschaft")
+- [Global Marshall Plan Initiative](https://de.wikipedia.org/wiki/Global_Marshall_Plan_Initiative "Global Marshall Plan Initiative")
+- [Donut-Ökonomie](https://de.wikipedia.org/wiki/Donut-%C3%96konomie "Donut-Ökonomie")
+- [Gemeinwohl-Ökonomie](https://de.wikipedia.org/wiki/Gemeinwohl-%C3%96konomie "Gemeinwohl-Ökonomie")
+- [ökologische Ökonomie](https://de.wikipedia.org/wiki/%C3%96kologische_%C3%96konomie "Ökologische Ökonomie")
+- [Nachhaltigkeitsziele der UN-Agenda 2030](https://de.wikipedia.org/wiki/Ziele_f%C3%BCr_nachhaltige_Entwicklung "Ziele für nachhaltige Entwicklung")
+
+
+#Buch
+Das Buch gibt es in verschiedenen Sprachen:
+
+- Sandrine Dixson-Declève, Owen Gaffney, Jayati Ghosh, Jørgen Randers, Johan Rockström, Per Espen Stoknes: Earth for All - a Survival Guide for Humanity. Hrsg.: Club of rome. New Society Publishers, Gabriola Island 2022, [ISBN 978-0-86571-986-6](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9780865719866).
+- Sandrine Dixson-Decleve, Owen Gaffney, Jayati Ghosh et al.: Earth for All: Ein Survivalguide für unseren Planeten. Der neue Bericht an den Club of Rome, 50 Jahre nach »Die Grenzen des Wachstums«. Hrsg.: Club of Rome. oekom Verlag, München 2022, [ISBN 978-3-96238-387-9](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783962383879), S.256.
+
+Ergänzungsband zur Situation in Deutschland:
+
+- Club of Rome und [Wuppertal Institut](https://de.wikipedia.org/wiki/Wuppertal_Institut_f%C3%BCr_Klima,_Umwelt,_Energie "Wuppertal Institut für Klima, Umwelt, Energie") (Hrsg.): *Earth for All Deutschland. Aufbruch in eine Zukunft für Alle*. oekom Verlag, München 2024, [ISBN 978-3-98726-111-4](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783987261114).
+
+#Deep-dive-papers
+Reihe von tiefergehenden Analysen („Deep-dive-papers“):
+
+1. Richard Wilkinson, Kate Pickett: [*earth4all: deep dive paper 01: From inequality to sustainability.*](https://www.clubofrome.org/wp-content/uploads/2022/05/Earth4All_Deep_Dive_Wilkinson_Pickett.pdf) In: *earth4all.* Club of Rome, April 2022, abgerufen am 10. Juli 2023 (englisch).
+2. Gaya Herrington: [*earth4all: deep dive paper 02: The Limits to Growth model: still prescient 50 years later.*](https://www.clubofrome.org/wp-content/uploads/2022/05/Earth4All_Deep_Dive_Herrington.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+3. Nigel Lake: [*earth4all: deep dive paper 03: Planetary turnaround: an investment banker’s perspective on climate change action.*](https://www.clubofrome.org/wp-content/uploads/2022/05/Earth4All_Deep_Dive_Lake_Randers.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+4. Mamphela Ramphele: [*earth4all: deep dive paper 04: A living systems approach to achieving global equity for a healthy planet.*](https://www.clubofrome.org/wp-content/uploads/2022/06/Earth4All_Deep_Dive_Ramphele.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+5. Ken Webster: [*earth4all: deep dive paper 05: The long road to a social dividend.*](https://www.clubofrome.org/wp-content/uploads/2022/06/Earth4All_Deep_Dive_Webster.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+6. Jayati Ghosh, Shouvik Chakraborty, Anuar Sucar Diaz Ceballos, Adrina Ibnat Jamilee Adiba: [*earth4all: deep dive paper 06: A just transition: how can we fairly assign climate responsibility?*](https://www.clubofrome.org/wp-content/uploads/2022/07/Earth4All_Deep_Dive_Ghosh.pdf) Abgerufen am 13. Juli 2023 (englisch).
+7. Debamanyu Das, Shouvik Chakraborty, Jayati Ghosh: [*earth4all: deep dive paper 07: Climate change mitigation strategies: impacts and obstacles in low- and middle-income countries.*](https://www.clubofrome.org/wp-content/uploads/2022/07/Earth4All_Deep_Dive_Ghosh2.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+8. Nafeez Ahmed: [*earth4all: deep dive paper 08: The clean energy transformation: a new paradigm for social progress within planetary boundaries.*](https://www.clubofrome.org/wp-content/uploads/2022/08/Earth4All_Deep_Dive_Ahmed.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+9. Masse Lô: [*earth4all: deep dive paper 09: Growth within limits through solidarity and equity.*](https://www.clubofrome.org/wp-content/uploads/2022/08/Earth4All_Deep_Dive_Lo.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+10. Chandran Nair: [*earth4all: deep dive paper 10: Transformations for a disparate and more equitable world.*](https://www.clubofrome.org/wp-content/uploads/2022/08/Earth4All_Deep_Dive_Nair.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+11. Otto Scharmer: [*earth4all: deep dive paper 11: Transforming our economies from ego to eco.*](https://www.clubofrome.org/wp-content/uploads/2022/10/Earth4All_Deep_Dive_Scharmer.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+12. Janez Potochnik, Anders Wijkman, Julia Okatz, Sanna O\`Connor, Rebecca Nohl: [*earth4all. deep dive paper 12: From ‘greening’ the present system to real transformation – transforming resource use for human wellbeing and planetary stability.*](https://www.clubofrome.org/wp-content/uploads/2022/10/Earth4All_Deep_Dive_Wijkman-2.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+13. Jannes Breier, Luana Schwarz, Jonathan F. Donges, Dieter Gerten, Johan Rockström: [*earth4all: deep dive paper 13: Regenerative agriculture for food security and ecological resilience: illustrating global biophysical and social spreading potentials.*](https://www.clubofrome.org/wp-content/uploads/2023/02/Earth4All_Deep_Dive_SchwarzBreier.pdf) In: *earth4all.* Club of Rome, abgerufen am 13. Juli 2023 (englisch).
+14. Ken Webster: [*earth4all: deep dive paper 14: On the macroeconomics of transition and the search for clarity.*](https://www.clubofrome.org/wp-content/uploads/2024/01/Earth4All_Deep_Dive_Webster_Pt2.pdf) In: *earth4all.* Club of Rome, Januar 2004, abgerufen am 29. Juni 2024 (englisch).
+15. Ken Webster, Laura Bannister, Sarath Davala: [*earth4all: deep dive paper 15: Unconditional cash transfers and the five turnarounds: beneficiaries’ perspective.*](https://www.clubofrome.org/wp-content/uploads/2024/01/Earth4All_Deep_Dive_Webster_Pt3.pdf) In: *earth4all.* Club of Rome, Januar 2024, abgerufen am 29. Juni 2024 (englisch).
+16. Katherine Trebeck: [*earth4all: deep dive paper 16: Getting wellbeing economy ideas on the policy table: theory, reality, pushback and next steps.*](https://www.clubofrome.org/wp-content/uploads/2024/01/Earth4All_Deep_Dive_Trebeck.pdf) In: *earth4all.* Club of Rome, Februar 2024, abgerufen am 29. Juni 2024 (englisch).
+17. Jamie Bristow, Phoebe Tickell, Rosie Bell, Julia Kim, Christine Wamsler, Otto Scharmer, Tomas Björkman: [*earth4all: deep dive paper 17: The system within: Addressing the inner dimensions of sustainability and systems transformation.*](https://www.clubofrome.org/wp-content/uploads/2024/05/Earth4All_Deep_Dive_Jamie_Bristow.pdf) In: *earth4all.* Club of Rome, Mai 2024, abgerufen am 29. Juni 2024 (englisch).
+
+Berühmt wurde der Club of Rome durch [Die Grenzen des Wachstums](https://de.wikipedia.org/wiki/Die_Grenzen_des_Wachstums "Die Grenzen des Wachstums"):
+
+- [Donella Meadows](https://de.wikipedia.org/wiki/Donella_Meadows "Donella Meadows"), [Dennis Meadows](https://de.wikipedia.org/wiki/Dennis_Meadows "Dennis Meadows"), [Jørgen Randers](https://de.wikipedia.org/wiki/J%C3%B8rgen_Randers "Jørgen Randers"), William W. Behrens III: *The Limits to Growth. A Report for the Club of Rome’s Project on the Predicament of Mankind.* Universe Books, New York 1972, [ISBN 0-87663-165-0](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/0876631650).
+
+Auf Deutsch:
+
+- *Die Grenzen des Wachstums. Bericht des Club of Rome zur Lage der Menschheit.* Aus dem Amerikanischen von Hans-Dieter Heck. Deutsche Verlags-Anstalt, Stuttgart 1972, [ISBN 3-421-02633-5](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/3421026335); Rowohlt, Reinbek bei Hamburg 1973, [ISBN 3-499-16825-1](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/3499168251).
+
+Der Club of Rome hat viele weitere sogenannte *Berichte an den Club of Rome* publiziert zu den globalen Problemen der Welt. Nach 20 [^21], 30 [^22] und 40 Jahren gab es jeweils updates zu den Prognosen. Im Jahr 2012 stellte [Jørgen Randers](https://de.wikipedia.org/wiki/J%C3%B8rgen_Randers "Jørgen Randers"), der bereits bei der ersten Publikation von 1972 unter den Autoren gewesen war, bei einer Veranstaltung des Club of Rome eine abermals erneuerte Prognose unter dem Titel *[2052: A Global Forecast for the Next Forty Years](https://de.wikipedia.org/wiki/2052._Der_neue_Bericht_an_den_Club_of_Rome "2052. Der neue Bericht an den Club of Rome")* vor.[^23]
+
+- Kate Raworth: Die Donut-Ökonomie. 6. Auflage. Carl Hanser Verlag, München 2018, [ISBN 978-3-446-25845-7](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783446258457), S.416.
+- [https://www.clubofrome.org/](https://www.clubofrome.org/) Club of Rome Homepage
+- [https://www.clubofrome.org/impact-hubs/reframing-economics/](https://www.clubofrome.org/impact-hubs/reframing-economics/) Reframing Economics Homepage
+- [https://earth4all.life/](https://earth4all.life/) Earth for all Homepage
+- [https://www.clubofrome.org/publication-category/earth4all/](https://www.clubofrome.org/publication-category/earth4all/) alle Publikationen des earth4all Projektes
+- [https://earth4all.life/wp-content/uploads/2023/03/Earth4All\_Exec\_Summary\_DE.pdf](https://earth4all.life/wp-content/uploads/2023/03/Earth4All_Exec_Summary_DE.pdf) Zusammenfassung der Studie
+- [https://blick-heben.com/good/die-donut-okonomie-ein-wirtschaftliches-zukunftsmodell/](https://blick-heben.com/good/die-donut-okonomie-ein-wirtschaftliches-zukunftsmodell/) Donut Ökonomie
+- [https://www.un.org/en/our-work/support-sustainable-development-and-climate-action](https://www.un.org/en/our-work/support-sustainable-development-and-climate-action) Vereinte Nationen Nachhaltigkeitsziele
+
+
+#Verweise
+
+[^1]: [*Earth for all Zusammenfassung.*](https://earth4all.life/wp-content/uploads/2023/03/Earth4All_Exec_Summary_DE.pdf) In: *earth for all.* Club of Rome, abgerufen am 24. Juni 2023.
+
+[^2]: Sandrine Dixson-Declève et al.: Earth for All - ein Survivalguide für unseren Planeten. Der neue Bericht an den Club of Rome, 50 Jahre nach »Die Grenzen des Wachstums«. Hrsg.: Club of Rome. oekom, München 2022, [ISBN 978-3-96238-387-9](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783962383879).
+
+[^3]: [*Publikationen des earth4all Projektes.*](https://www.clubofrome.org/publication-category/earth4all/) Club of rome, abgerufen am 1. Juli 2023.
+
+[^4]: Earth for All Deutschland: Wie unser Land zukunftsfähig wird. oekom verlag, München 2024, [ISBN 978-3-9872611-1-4](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783987261114).
+
+[^5]: [Jung & Naiv](https://de.wikipedia.org/wiki/Jung_%26_Naiv "Jung & Naiv"): [*Earth for All: Vorschläge für eine sozial gerechte Transformation | BPK 14. Oktober 2024.*](https://www.youtube.com/watch?v=JxWnSGDVG_0) In: *[YouTube](https://de.wikipedia.org/wiki/YouTube "YouTube").* 14. Oktober 2024, abgerufen am 14. Oktober 2024.
+
+[^6]: [*Earth for All: A Survival Guide for Humanity – Ein neuer Bericht an den Club of Rome.*](https://www.clubofrome.at/earth-for-all-a-survival-guide-for-humanity-ein-neuer-bericht-an-den-club-of-rome/) Club of Rome, abgerufen am 25. Juni 2023.
+
+[^7]: [*earth4all.*](https://earth4all.life/) Club of Rome, abgerufen am 26. Juni 2023.
+
+[^8]: Sandrine Dixon-Decleve et al.: earth for all - ein survivalguide für unseren Planeten. Hrsg.: Club of Rome. 3. Auflage. oekom, München 2022, [ISBN 978-3-96238-387-9](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783962383879), S.18ff.
+
+[^9]: [*Owen Gaffney.*](https://futureearth.org/contacts/owen-gaffney/) In: *futureearth.org.* Abgerufen am 26. Juni 2023.
+
+[^10]: [*Anders Wijkman.*](http://wijkman.se/about-wijkman/) Abgerufen am 12. Juli 2023.
+
+[^11]: [*Ken Webster.*](https://innovationroundtable.com/summit/speaker/ken-webster/) Innovation Roundtable, abgerufen am 12. Juli 2023 (englisch).
+
+[^12]: [*Dr. Lewis Akenji.*](https://hotorcool.org/hc-team-/dr-lewis-akenji/) hot or cool, abgerufen am 12. Juli 2023.
+
+[^13]: [*Curriculum Vitae David Collste (PhD).*](https://www.stockholmresilience.org/download/18.761fdfb217fe034b93ec32/1654679930573/CV%20David%20Collste%202022-06-08.pdf) Stockholm Resilience Centre, abgerufen am 12. Juli 2023.
+
+[^14]: [*Kabubo-Mariara, Jane.*](https://www.efdinitiative.org/about-efd/people/kabubo-mariara-jane) Environment for Development, abgerufen am 13. Juli 2023.
+
+[^15]: [*Long-term thinking + Action = Lasting impact.*](https://www.nigellake.com/) Abgerufen am 13. Juli 2023.
+
+[^16]: [*Strategic Planning and Foresight in Africa in Response to COVID-19.*](https://unpan.un.org/sites/unpan.un.org/files/Bio%20all%20speakers%20-%208%20December.pdf) Abgerufen am 17. September 2023.
+
+[^17]: [*Ziele für nachhaltige Entwicklung.*](https://unric.org/de/17ziele/) In: *Agrenda 2023, SDGs.* Vereinte Nationen, abgerufen am 25. Juni 2023.
+
+[^18]: Kate Raworth: Die Donut-Ökonomie. Hrsg.: Hanser. Hanser, München, [ISBN 978-3-446-27814-1](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783446278141), S.416.
+
+[^19]: [*Wirtschaftlicher Systemwandel.*](https://earth4all.life/wp-content/uploads/2023/03/Earth4All_Exec_Summary_DE.pdf) In: *earth4all.* Club of Rome, Projekt earth4all, abgerufen am 1. Juli 2023.
+
+[^20]: [*for an economy in service of life.*](https://weall.org/) Wellbeing Economy Alliance, abgerufen am 1. Juli 2023.
+
+[^21]: Donella Meadows, Dennis Meadows, Jørgen Randers: Die neuen Grenzen des Wachstums. Die Lage der Menschheit: Bedrohung und Zukunftschancen. DVA, [ISBN 978-3-421-06626-8](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9783421066268).
+
+[^22]: Donella Meadows, Jorgen Randers, Dennis Meadows: Limits to Growth - The 30-Year Update. Chelsea Green Publishing Co, [ISBN 978-1-931498-58-6](https://de.wikipedia.org/wiki/Spezial:ISBN-Suche/9781931498586), S.368.
+
+[^23]: [*Publikationen der Initiative earth4all.*](https://earth4all.life/publications/) In: *offizielle Website der eart4all Initiative.* Abgerufen am 13. Juli 2023.

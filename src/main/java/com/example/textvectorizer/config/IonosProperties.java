@@ -23,6 +23,8 @@ public class IonosProperties {
     @NotBlank
     private String documentCollectionId;
 
+    private boolean dryRun = true;
+
     public String getApiKey() {
         return apiKey;
     }
@@ -61,5 +63,13 @@ public class IonosProperties {
 
     public void setDocumentCollectionId(String documentCollectionId) {
         this.documentCollectionId = documentCollectionId;
+    }
+
+    public boolean isDryRun() {
+    return dryRun;
+}
+
+    public void setDryRun(boolean dryRun) {
+        this.dryRun = dryRun;
     }
 }

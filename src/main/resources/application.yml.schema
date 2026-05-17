@@ -73,6 +73,6 @@ ionos:
   dry-run: true
 
 vector-db:
-  jdbc-url: jdbc:postgresql://localhost:5435/textvectorizer
-  username: textvectorizer
-  password: textvectorizer
+  jdbc-url: jdbc:postgresql://localhost:<port>/textvectorizer
+  username: <username>
+  password: <password>

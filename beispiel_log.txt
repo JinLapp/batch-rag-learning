@@ -1,0 +1,111 @@
+026-03-15 16:49:24.297 INFO  [main] [,,,] c.e.t.TextVectorizerApplication - Starting TextVectorizerApplication using Java 21.0.10 with PID 24021 (/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/target/classes started by jl in /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer)
+2026-03-15 16:49:24.299 DEBUG [main] [,,,] c.e.t.TextVectorizerApplication - Running with Spring Boot v3.5.11, Spring v6.2.16
+2026-03-15 16:49:24.300 INFO  [main] [,,,] c.e.t.TextVectorizerApplication - No active profile set, falling back to 1 default profile: "default"
+2026-03-15 16:49:25.742 INFO  [main] [,,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-03-15 16:49:26.095 INFO  [main] [,,,] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn1: url=jdbc:h2:file:./data/textvectorizer-db user=SA
+2026-03-15 16:49:26.097 INFO  [main] [,,,] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-03-15 16:49:26.202 INFO  [main] [,,,] c.e.t.batch.config.BatchJobConfig - Creating step bean: discoverFilesStep
+2026-03-15 16:49:26.274 INFO  [main] [,,,] c.e.t.batch.config.BatchJobConfig - Creating step bean: inspectDiscoveredFilesStep
+2026-03-15 16:49:26.277 INFO  [main] [,,,] c.e.t.batch.config.BatchJobConfig - Creating step bean: chunkDocumentsStep
+2026-03-15 16:49:26.294 INFO  [main] [,,,] c.e.t.batch.config.BatchJobConfig - Creating job bean: textVectorizationJob
+2026-03-15 16:49:26.608 INFO  [main] [,,,] o.s.b.a.e.web.EndpointLinksResolver - Exposing 4 endpoints beneath base path '/actuator'
+2026-03-15 16:49:27.271 INFO  [main] [,,,] o.s.b.w.e.netty.NettyWebServer - Netty started on port 8080 (http)
+2026-03-15 16:49:27.282 INFO  [main] [,,,] c.e.t.TextVectorizerApplication - Started TextVectorizerApplication in 3.44 seconds (process running for 3.723)
+2026-03-15 16:49:27.287 INFO  [main] [,,,] c.e.t.b.config.BatchStartupRunner - Launching Spring Batch job from CommandLineRunner with parameters: {'run.id':'{value=1773589767286, type=class java.lang.Long, identifying=true}'}
+2026-03-15 16:49:27.340 INFO  [main] [,,,] o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=textVectorizationJob]] launched with the following parameters: [{'run.id':'{value=1773589767286, type=class java.lang.Long, identifying=true}'}]
+2026-03-15 16:49:27.377 INFO  [main] [140,,,] c.e.t.b.l.BatchJobExecutionListener - Job started: jobName=textVectorizationJob, jobId=140, parameters={'run.id':'{value=1773589767286, type=class java.lang.Long, identifying=true}'}
+2026-03-15 16:49:27.386 INFO  [main] [140,,,] o.s.batch.core.job.SimpleStepHandler - Executing step: [discoverFilesStep]
+2026-03-15 16:49:27.393 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.l.BatchStepExecutionListener - Step started: stepName=discoverFilesStep, stepExecutionId=11
+2026-03-15 16:49:27.399 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Starting file discovery in directory: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input
+2026-03-15 16:49:27.411 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [5a67958c8cb7b409bf43829cdf485d8b0a64ae1ea08ca1272f4f8db9019a28ed]: false
+2026-03-15 16:49:27.411 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Discovered new file: fileName=Donut-Ökonomie – Wikipedia.txt, sourcePath=/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/Donut-Ökonomie – Wikipedia.txt, checksum=5a67958c8cb7b409bf43829cdf485d8b0a64ae1ea08ca1272f4f8db9019a28ed
+2026-03-15 16:49:27.417 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [cf35a4797434eb7c7d6ac016da67f5f80c9230333d2f5cd50d902d555a7a7521]: false
+2026-03-15 16:49:27.417 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Discovered new file: fileName=Earth4All – Wikipedia.txt, sourcePath=/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/Earth4All – Wikipedia.txt, checksum=cf35a4797434eb7c7d6ac016da67f5f80c9230333d2f5cd50d902d555a7a7521
+2026-03-15 16:49:27.418 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [dc3d9a9e801dd6110a5126aefb307380d355c5e1ab620a89583e39fe2266688f]: false
+2026-03-15 16:49:27.418 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Discovered new file: fileName=FuturICT.txt, sourcePath=/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/FuturICT.txt, checksum=dc3d9a9e801dd6110a5126aefb307380d355c5e1ab620a89583e39fe2266688f
+2026-03-15 16:49:27.419 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [c7643e6865262da9d4c865a827aa605f190ad69ec7fc03c79bba46ac4b46a907]: true
+2026-03-15 16:49:27.419 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Skipping already imported file: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/NeueTextdatei.txt
+2026-03-15 16:49:27.443 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [1118362c86814815209ff0a11395e934a1fbb29736d60d202482816f7557eaf8]: false
+2026-03-15 16:49:27.443 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Discovered new file: fileName=jli260314_chunkTest.txt, sourcePath=/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/jli260314_chunkTest.txt, checksum=1118362c86814815209ff0a11395e934a1fbb29736d60d202482816f7557eaf8
+2026-03-15 16:49:27.443 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [5c8e07c0684c5fb564df361ebb83a888f8d56d77b5c8f0dbb7954ef0cd7c8610]: true
+2026-03-15 16:49:27.443 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Skipping already imported file: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/test2.txt
+2026-03-15 16:49:27.444 DEBUG [main] [140,discoverFilesStep,,] c.e.t.m.service.ImportHistoryService - Duplicate check for checksum [7bdd0e23dc247d96438e6d3771e4638e431c3d827ccb0f65ec2916b53f8ff0f9]: false
+2026-03-15 16:49:27.444 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - Discovered new file: fileName=test3.txt, sourcePath=/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/test3.txt, checksum=7bdd0e23dc247d96438e6d3771e4638e431c3d827ccb0f65ec2916b53f8ff0f9
+2026-03-15 16:49:27.444 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.tasklet.DiscoverFilesTasklet - File discovery completed. 5 new file(s) prepared for downstream processing.
+2026-03-15 16:49:27.450 INFO  [main] [140,discoverFilesStep,,] o.s.batch.core.step.AbstractStep - Step: [discoverFilesStep] executed in 63ms
+2026-03-15 16:49:27.450 INFO  [main] [140,discoverFilesStep,,] c.e.t.b.l.BatchStepExecutionListener - Step finished: stepName=discoverFilesStep, stepExecutionId=11, status=COMPLETED, readCount=1, writeCount=0, skipCount=0
+2026-03-15 16:49:27.464 INFO  [main] [140,,,] o.s.batch.core.job.SimpleStepHandler - Executing step: [inspectDiscoveredFilesStep]
+2026-03-15 16:49:27.465 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.l.BatchStepExecutionListener - Step started: stepName=inspectDiscoveredFilesStep, stepExecutionId=12
+2026-03-15 16:49:27.467 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.t.InspectDiscoveredFilesTasklet - Inspecting 5 discovered file descriptor(s) from execution context.
+2026-03-15 16:49:27.467 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.t.InspectDiscoveredFilesTasklet - Descriptor: SourceFileDescriptor{fileName='Donut-Ökonomie – Wikipedia.txt', sourcePath='/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/Donut-Ökonomie – Wikipedia.txt', checksum='5a67958c8cb7b409bf43829cdf485d8b0a64ae1ea08ca1272f4f8db9019a28ed', discoveredAt=2026-03-15T15:49:27.411334898Z}
+2026-03-15 16:49:27.468 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.t.InspectDiscoveredFilesTasklet - Descriptor: SourceFileDescriptor{fileName='Earth4All – Wikipedia.txt', sourcePath='/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/Earth4All – Wikipedia.txt', checksum='cf35a4797434eb7c7d6ac016da67f5f80c9230333d2f5cd50d902d555a7a7521', discoveredAt=2026-03-15T15:49:27.417582216Z}
+2026-03-15 16:49:27.468 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.t.InspectDiscoveredFilesTasklet - Descriptor: SourceFileDescriptor{fileName='FuturICT.txt', sourcePath='/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/FuturICT.txt', checksum='dc3d9a9e801dd6110a5126aefb307380d355c5e1ab620a89583e39fe2266688f', discoveredAt=2026-03-15T15:49:27.418900759Z}
+2026-03-15 16:49:27.470 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.t.InspectDiscoveredFilesTasklet - Descriptor: SourceFileDescriptor{fileName='jli260314_chunkTest.txt', sourcePath='/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/jli260314_chunkTest.txt', checksum='1118362c86814815209ff0a11395e934a1fbb29736d60d202482816f7557eaf8', discoveredAt=2026-03-15T15:49:27.443322812Z}
+2026-03-15 16:49:27.470 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.t.InspectDiscoveredFilesTasklet - Descriptor: SourceFileDescriptor{fileName='test3.txt', sourcePath='/media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/test3.txt', checksum='7bdd0e23dc247d96438e6d3771e4638e431c3d827ccb0f65ec2916b53f8ff0f9', discoveredAt=2026-03-15T15:49:27.444464821Z}
+2026-03-15 16:49:27.472 INFO  [main] [140,inspectDiscoveredFilesStep,,] o.s.batch.core.step.AbstractStep - Step: [inspectDiscoveredFilesStep] executed in 7ms
+2026-03-15 16:49:27.472 INFO  [main] [140,inspectDiscoveredFilesStep,,] c.e.t.b.l.BatchStepExecutionListener - Step finished: stepName=inspectDiscoveredFilesStep, stepExecutionId=12, status=COMPLETED, readCount=1, writeCount=0, skipCount=0
+2026-03-15 16:49:27.478 INFO  [main] [140,,,] o.s.batch.core.job.SimpleStepHandler - Executing step: [chunkDocumentsStep]
+2026-03-15 16:49:27.479 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.l.BatchStepExecutionListener - Step started: stepName=chunkDocumentsStep, stepExecutionId=13
+2026-03-15 16:49:27.479 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.l.ChunkPreparationStepListener - Initializing reader from job execution context for chunk preparation step.
+2026-03-15 16:49:27.480 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.r.DiscoveredFileDescriptorReader - Reader initialized with 5 discovered file descriptor(s).
+2026-03-15 16:49:27.482 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.r.DiscoveredFileDescriptorReader - Reader returning descriptor for file: Donut-Ökonomie – Wikipedia.txt
+2026-03-15 16:49:27.483 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.r.DiscoveredFileDescriptorReader - Reader returning descriptor for file: Earth4All – Wikipedia.txt
+2026-03-15 16:49:27.484 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - Processing file into chunked document: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/Donut-Ökonomie – Wikipedia.txt
+2026-03-15 16:49:27.491 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy selected: heading-paragraph, produced 4 chunk(s).
+2026-03-15 16:49:27.491 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - File processed into 4 chunk(s): Donut-Ökonomie – Wikipedia.txt
+2026-03-15 16:49:27.491 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - Processing file into chunked document: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/Earth4All – Wikipedia.txt
+2026-03-15 16:49:27.498 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy selected: heading-paragraph, produced 12 chunk(s).
+2026-03-15 16:49:27.499 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - File processed into 12 chunk(s): Earth4All – Wikipedia.txt
+2026-03-15 16:49:27.499 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writer received 2 chunked document item(s).
+2026-03-15 16:49:27.499 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writing chunked document for file: Donut-Ökonomie – Wikipedia.txt, chunkCount=4
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Donut-Ökonomie – Wikipedia.txt, chunkIndex=0, snippetLength=99
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Donut-Ökonomie – Wikipedia.txt, chunkIndex=1, snippetLength=89
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Donut-Ökonomie – Wikipedia.txt, chunkIndex=2, snippetLength=12
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Donut-Ökonomie – Wikipedia.txt, chunkIndex=3, snippetLength=28285
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writing chunked document for file: Earth4All – Wikipedia.txt, chunkCount=12
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=0, snippetLength=92
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=1, snippetLength=89
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=2, snippetLength=12
+2026-03-15 16:49:27.500 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=3, snippetLength=1332
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=4, snippetLength=5917
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=5, snippetLength=1827
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=6, snippetLength=746
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=7, snippetLength=13245
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=8, snippetLength=699
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=9, snippetLength=425
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=10, snippetLength=6016
+2026-03-15 16:49:27.501 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=Earth4All – Wikipedia.txt, chunkIndex=11, snippetLength=6526
+2026-03-15 16:49:27.504 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.r.DiscoveredFileDescriptorReader - Reader returning descriptor for file: FuturICT.txt
+2026-03-15 16:49:27.504 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.r.DiscoveredFileDescriptorReader - Reader returning descriptor for file: jli260314_chunkTest.txt
+2026-03-15 16:49:27.505 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - Processing file into chunked document: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/FuturICT.txt
+2026-03-15 16:49:27.508 DEBUG [main] [140,chunkDocumentsStep,,] c.e.t.c.s.HeadingParagraphChunkingStrategy - Heading strategy did not match: no heading-like lines found.
+2026-03-15 16:49:27.508 DEBUG [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy heading-paragraph did not match.
+2026-03-15 16:49:27.509 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy selected: sentence-window, produced 1 chunk(s).
+2026-03-15 16:49:27.509 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - File processed into 1 chunk(s): FuturICT.txt
+2026-03-15 16:49:27.509 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - Processing file into chunked document: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/jli260314_chunkTest.txt
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy selected: heading-paragraph, produced 4 chunk(s).
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - File processed into 4 chunk(s): jli260314_chunkTest.txt
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writer received 2 chunked document item(s).
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writing chunked document for file: FuturICT.txt, chunkCount=1
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=FuturICT.txt, chunkIndex=0, snippetLength=669
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writing chunked document for file: jli260314_chunkTest.txt, chunkCount=4
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=jli260314_chunkTest.txt, chunkIndex=0, snippetLength=761
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=jli260314_chunkTest.txt, chunkIndex=1, snippetLength=14
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=jli260314_chunkTest.txt, chunkIndex=2, snippetLength=6
+2026-03-15 16:49:27.511 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=jli260314_chunkTest.txt, chunkIndex=3, snippetLength=520
+2026-03-15 16:49:27.515 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.r.DiscoveredFileDescriptorReader - Reader returning descriptor for file: test3.txt
+2026-03-15 16:49:27.515 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - Processing file into chunked document: /media/jl/Datenhafen/Test_Installationen/batch_rag_test/text-vectorizer/./input/test3.txt
+2026-03-15 16:49:27.516 DEBUG [main] [140,chunkDocumentsStep,,] c.e.t.c.s.HeadingParagraphChunkingStrategy - Heading strategy did not match: no heading-like lines found.
+2026-03-15 16:49:27.516 DEBUG [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy heading-paragraph did not match.
+2026-03-15 16:49:27.516 DEBUG [main] [140,chunkDocumentsStep,,] c.e.t.c.s.SentenceWindowChunkingStrategy - Sentence strategy did not match: too few sentences found.
+2026-03-15 16:49:27.516 DEBUG [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy sentence-window did not match.
+2026-03-15 16:49:27.516 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.chunking.TextChunkingService - Chunking strategy selected: fixed-size-fallback, produced 1 chunk(s).
+2026-03-15 16:49:27.516 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.p.FileToChunkedDocumentProcessor - File processed into 1 chunk(s): test3.txt
+2026-03-15 16:49:27.516 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writer received 1 chunked document item(s).
+2026-03-15 16:49:27.516 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Writing chunked document for file: test3.txt, chunkCount=1
+2026-03-15 16:49:27.516 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.w.LoggingChunkedDocumentWriter - Chunk detail: fileName=test3.txt, chunkIndex=0, snippetLength=15
+2026-03-15 16:49:27.518 INFO  [main] [140,chunkDocumentsStep,,] o.s.batch.core.step.AbstractStep - Step: [chunkDocumentsStep] executed in 39ms
+2026-03-15 16:49:27.518 INFO  [main] [140,chunkDocumentsStep,,] c.e.t.b.l.BatchStepExecutionListener - Step finished: stepName=chunkDocumentsStep, stepExecutionId=13, status=COMPLETED, readCount=5, writeCount=5, skipCount=0
+2026-03-15 16:49:27.521 INFO  [main] [140,,,] c.e.t.b.l.BatchJobExecutionListener - Job finished: jobName=textVectorizationJob, jobId=140, status=COMPLETED, exitStatus=exitCode=COMPLETED;exitDescription=
+2026-03-15 16:49:27.525 INFO  [main] [,,,] o.s.b.c.l.s.TaskExecutorJobLauncher - Job: [SimpleJob: [name=textVectorizationJob]] completed with the following parameters: [{'run.id':'{value=1773589767286, type=class java.lang.Long, identifying=true}'}] and the following status: [COMPLETED] in 159ms
+2026-03-15 16:49:27.526 INFO  [main] [,,,] c.e.t.b.config.BatchStartupRunner - Job execution finished with status: COMPLETED
